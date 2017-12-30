@@ -6,7 +6,7 @@ setup(
     version="0.1",
 
     # Dependencies
-    install_requires=['requests_oauthlib>=0.8.0', 'influxdb>=5.0'],
+    install_requires=['requests_oauthlib>=0.8.0', 'influxdb>=4.1'],
 
     package_data={
         # Additional files to include

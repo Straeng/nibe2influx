@@ -1,0 +1,13 @@
+[Unit]
+Description=Reads values from Nibe Uplink and store in InfluxDB.
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=/usr/bin/nibe2influx
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
