@@ -1,0 +1,9 @@
+dist/
+pkg/
+build/
+*egg-info
+__pycache__
+*.xz
+*.json
+.vscode
+callback_server.py
