@@ -1,13 +1,13 @@
 # Maintainer: Martin Sträng <martin@tilljorden.com>
 pkgname=python-nibe2influx
 pkgver=0.1
-pkgrel=4
+pkgrel=5
 pkgdesc="Reads values from Nibe Uplink and store in InfluxDB"
 arch=(any)
 url=""
 license=('')
 groups=()
-depends=('python' 'python-requests-oauthlib' 'influxdb')
+depends=('python' 'python-requests-oauthlib')
 makedepends=('python-setuptools')
 provides=()
 conflicts=()
